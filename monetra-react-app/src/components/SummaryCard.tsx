@@ -2,7 +2,7 @@
 function SummaryCard({title, amount} : {title: string; amount : string} ) {
   return (
     <div>
-        <h1>{title}</h1>
+        <h2>{title}</h2>
         <p>{amount}</p>
     </div>
   )
