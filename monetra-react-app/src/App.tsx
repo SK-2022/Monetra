@@ -1,5 +1,6 @@
 import SummaryCard from "./components/SummaryCard";
 import TransactionItem from "./components/TransactionList";
+import AddTransaction from "./components/AddTransaction";
 
 export default function App() {
   return (
@@ -9,6 +10,7 @@ export default function App() {
       <SummaryCard title="Balance" amount="$10,000,000" />
       <SummaryCard title="Income" amount="$1,000,000" />
       <SummaryCard title="Expenses" amount="$300,000" />
+      <AddTransaction />
       <TransactionItem
         date="2026/11/28"
         details="3 bedroom Apartment in Nerimatakanodai"

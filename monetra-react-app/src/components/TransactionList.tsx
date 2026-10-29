@@ -1,4 +1,3 @@
-//Transaction
 function TransactionItem({
   date,
   details,
